@@ -1,26 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Obed Contreras</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obed Contreras - Portafolio</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+        * {
             margin: 0;
-            padding: 20px;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
         }
         h1 {
-            color: #333;
-            text-align: center;
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
         }
-        p {
-            color: #666;
-            font-size: 16px;
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .card h2 {
+            color: #667eea;
+            margin-bottom: 10px;
         }
     </style>
 </head>
 <body>
-    <h1>Obed Contreras</h1>
-    <p>Página básica.</p>
+    <div class="container">
+        <header>
+            <h1>Obed Contreras</h1>
+            <p class="subtitle">Desarrollador | Creador</p>
+        </header>
+        
+        <div class="card">
+            <h2>Acerca de mí</h2>
+            <p>Bienvenido a mi portafolio personal. Soy apasionado por la programación y la creación web.</p>
+        </div>
+    </div>
 </body>
 </html>
